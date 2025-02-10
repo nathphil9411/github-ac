@@ -1,0 +1,11 @@
+name: Testing my mic
+on: workflow_dispatch
+jobs:
+  first-ewu:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: echo "hello nath"
+      - name: print goodbye
+        run: echo "goodbye nath"
+      
